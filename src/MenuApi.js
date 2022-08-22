@@ -1,7 +1,7 @@
 const MenuApi = [
   {
     id: 1,
-    image: "https://source.unsplash.com/400x400/?noodles",
+    image: "https://source.unsplash.com/800x600/?noodles",
     name: "maggie",
     category: "lunch",
     price: 25,
@@ -9,7 +9,7 @@ const MenuApi = [
   },
   {
     id: 2,
-    image: "https://source.unsplash.com/400x400/?sandwich",
+    image: "https://source.unsplash.com/800x600/?sandwich",
     name: "Sandwich",
     category: "lunch",
     price: 25,
@@ -17,7 +17,7 @@ const MenuApi = [
   },
   {
     id: 3,
-    image: "https://source.unsplash.com/400x400/?bbq",
+    image: "https://source.unsplash.com/800x600/?bbq",
     name: "tikka",
     category: "dinner",
     price: 25,
@@ -25,7 +25,7 @@ const MenuApi = [
   },
   {
     id: 4,
-    image: "https://source.unsplash.com/400x400/?jalebi",
+    image: "https://source.unsplash.com/800x600/?jalebi",
     name: "jalebi",
     category: "breakfast",
     price: 25,
@@ -33,7 +33,7 @@ const MenuApi = [
   },
   {
     id: 5,
-    image: "https://source.unsplash.com/400x400/?juice",
+    image: "https://source.unsplash.com/800x600/?juice",
     name: "Juice",
     category: "breakfast",
     price: 25,
@@ -41,7 +41,7 @@ const MenuApi = [
   },
   {
     id: 6,
-    image: "https://source.unsplash.com/400x400/?pulao",
+    image: "https://source.unsplash.com/800x600/?pulao",
     name: "Pulao",
     category: "dinner",
     price: 25,
@@ -49,7 +49,7 @@ const MenuApi = [
   },
   {
     id: 7,
-    image: "https://source.unsplash.com/400x400/?samosa",
+    image: "https://source.unsplash.com/800x600/?samosa",
     name: "Samosa",
     category: "lunch",
     price: 25,
