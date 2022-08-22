@@ -15,7 +15,7 @@ const UniqueCategory = [
 ];
 export default function Resturant() {
   const [menuCard, setMenuCard] = useState(Menu);
-  const [menuList, setMenuLlist] = useState(UniqueCategory);
+  const [menuList, _setMenuLlist] = useState(UniqueCategory);
   console.log(Menu);
   const FilterItem = (category) => {
     if (category === "All") {
