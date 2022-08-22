@@ -19,7 +19,7 @@ export default function MenuCard({ menuCard }) {
                   </span>
                   <div className="card-read">Read</div>
                 </div>
-                <img src="" alt="images" className="card-media" />
+                <img src={currEl.image} alt="images" className="card-media" />
                 <span className="card-tag subtle">Order Now</span>
               </div>
             </div>
