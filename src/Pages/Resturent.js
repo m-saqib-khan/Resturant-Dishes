@@ -15,7 +15,7 @@ const UniqueCategory = [
 ];
 export default function Resturant() {
   const [menuCard, setMenuCard] = useState(Menu);
-  const [menuList, _setMenuLlist] = useState(UniqueCategory);
+
   console.log(Menu);
   const FilterItem = (category) => {
     if (category === "All") {
@@ -29,7 +29,7 @@ export default function Resturant() {
   };
   return (
     <>
-      <NavBar FilterItem={FilterItem} menuList={menuList} />
+      <NavBar FilterItem={FilterItem} menuList={UniqueCategory} />
 
       <MenuCard menuCard={menuCard} />
     </>
